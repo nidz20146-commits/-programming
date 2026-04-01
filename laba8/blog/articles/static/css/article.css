@@ -1,0 +1,117 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 3px solid #16a085;
+}
+
+.header img {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.archive,
+.article {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.one-post {
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.post-title {
+    margin: 0 0 15px 0;
+    font-size: 24px;
+}
+
+.post-title a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    text-decoration: underline;
+}
+
+.article-info {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #ecf0f1;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+    font-weight: bold;
+}
+
+.article-created-date {
+    width: 50%;
+    float: right;
+    text-align: right;
+    color: #bdc3c7;
+}
+
+.article-full-text {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 1.8;
+    white-space: pre-line;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.article h1 {
+    font-family: "Times New Roman", Georgia, serif;
+    margin: 0 0 20px 0;
+    font-size: 32px;
+}
+
+@media (max-width: 1000px) {
+    .archive,
+    .article {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .header img {
+        width: 200px;
+    }
+    
+    .article-author,
+    .article-created-date {
+        width: 100%;
+        float: none;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+}
